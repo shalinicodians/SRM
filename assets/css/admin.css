@@ -1,0 +1,108 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+body{
+	margin: 0px;
+	padding:0px;
+	background-image: url("../img/admin.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.form{
+	background-color:white;
+	width: 1200px;
+	height: 500px;
+	margin-left: 200px;
+	margin-top: 150px;
+	opacity: 0.8;
+	border-radius: 20px 20px 20px 20px;
+	
+}
+.myform{
+	position: absolute;
+	margin-top: 225px;
+	width: 700px;
+	margin-left: 100px;
+	height: 300px
+}
+
+.fname{
+	margin-top: 0px;
+	font-size: 30px;
+	margin-left: 20px;
+	float: left
+
+
+}
+.password{
+	clear: both;
+	float: left;
+	margin-top: 10px;
+
+	margin-left: 10px;
+	font-size: 30px
+
+}
+.key{
+
+	width: 200px;
+	height: 200px;
+	float: right;
+	opacity: 0.5;
+	margin-top: 20px;
+	margin-right: 150px
+}
+input[type=email]{
+	width: 70%;
+	height: 40px;
+	margin-left: 40px;
+	font-size:25px;
+	float: left;
+	border-radius: 10px 10px 10px 10px
+}
+input[type=submit]{
+	color: black;
+	clear: both;
+	float: left;
+	width: 50%;
+	height: 50px;
+	margin-left: 250px;
+	font-size:25px;
+	margin-top: 20px;
+	background-color: #f7cff7;
+	border-radius: 20px 20px 20px 20px
+}
+input[type=submit]:hover{
+	background-color: hotpink;
+	box-shadow: 5px 5px 15px black;
+
+	
+}
+input[type=password]{
+	width: 70%;
+	height: 40px;
+	margin-left: 40px;
+	font-size:25px;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	}
+	#demo{
+		float: left;
+		margin-left: 10px;
+		color: red;
+		font-size: 15px
+	}
+	#demo_pass{
+		float: left;
+		margin-left: 10px;
+		color: red;
+		font-size: 15px
+
+
+
+	}

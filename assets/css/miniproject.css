@@ -1,0 +1,179 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+}
+.nav_bar{
+	width:1518.5px;
+	height: 70px;
+	background-color: #2c2d2d;
+	border-radius: 5px;
+	position: absolute;
+}
+.nav_bar ul li{
+	display: inline-block;
+	padding-left: 50px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 0px
+}
+.nav_bar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+
+
+	}
+	.nav_bar ul li a:hover{
+		color: yellow;
+		text-shadow: 10px 10px 25px black; 
+	}
+	.after_nav{
+		width: 1518.5px;
+		height: 750px
+	}
+	.sidebar{
+		width: 400px;
+		height: 900px;
+		background-color:#545556;
+
+	}
+.heading{
+	width: 90%;
+	height: 650px;
+	margin-top: 200px;
+	margin-left: 20px;
+
+}
+.image{
+	width: 1118.5px;
+	height: 530px;
+
+	float: left;
+	clear: right;
+	margin-left: 0px;
+	background-image: url("../img/home-banner-4.jpg");
+	background-size: cover
+
+
+}
+.std_tag{
+	width: 500px;
+	height: 50px;
+	float: right;
+	margin-top: 175px;
+	margin-right: 200px;
+	background-color:black;
+	opacity: 0.7 
+}
+.btn_login{
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	float: right;
+	margin-right: 350px
+}
+
+.btn_login a{
+	text-decoration:none;
+	color: white;
+	margin-top:10px;
+	padding-bottom: 10px;
+	font-size: 35px;
+	 padding-left:30px
+	}
+	.btn_signin {
+		
+		width: 150px;
+		height: 50px;
+		position: absolute;
+		z-index: 8;
+		float: right;
+		margin-left: 170px;
+		margin-top:0px ;
+		background-color: white;
+
+	}
+	.btn_signin a{
+	text-decoration:none;
+	color: black;
+	margin-top:10px;
+	padding-bottom: 10px;
+	font-size: 35px;
+	 padding-left:30px
+	}
+	/*============================classroom=========================*/
+	.student_tag{
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-left:30px;
+		margin-top: 5px
+	}
+	.student_tag img{
+		width:100px;
+		height:100px;
+		margin-left:10px
+	}
+	.student_tag a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		margin-left: 10px; 
+	}
+	.student_tag p{
+		text-decoration: none;
+		color: grey;
+		margin-left: 10px; 
+		margin-top: 0px
+	}
+	/*===================================classroom==========================================*/
+	.class_tag{
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-left:250px;
+		margin-top: 5px
+	}
+	.class_tag img{
+		width:100px;
+		height:100px;
+		margin-left:30px
+	}
+	.class_tag a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		margin-left: 0px; 
+	}
+	.class_tag p{
+		text-decoration: none;
+		color: grey;
+		margin-left: 0px; 
+		margin-top: 0px
+	}
+	/*===================Book==============================*/
+	.book_tag{
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-left:250px;
+		margin-top: 5px
+	}
+	.book_tag img{
+		width:100px;
+		height:100px;
+		margin-left:30px
+	}
+	.book_tag a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		margin-left: 30px; 
+	}
+	.book_tag p{
+		text-decoration: none;
+		color: grey;
+		margin-left: 0px; 
+		margin-top: 0px
+	}
